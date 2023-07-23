@@ -1,0 +1,237 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@300;400;600;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "League Spartan", sans-serif;
+}
+:root {
+  --primary-beaver: #9e7f66;
+  --primary-cod: #111111;
+  --secondary-mirage: #232b37;
+  --secondary-ebony: #242b37;
+  --secondary-shuttle: #5c6779;
+}
+body {
+  overflow-x: hidden;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+h2 {
+  /* color: #242b37; */
+  font-family: League Spartan;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: -0.5px;
+  margin: 55px 0 27px 0;
+}
+
+p {
+  /* color: #242b37; */
+  font-family: League Spartan;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.btn {
+  height: 64px;
+
+  text-transform: uppercase;
+
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 2.5px;
+}
+.btn-light {
+  color: var(--primary-cod);
+  outline: 1px solid var(--primary-cod);
+}
+.btn-dark {
+  color: #fff;
+  background-color: var(--primary-cod);
+  outline: 1px solid #fff;
+}
+
+.btn:hover {
+  background-color: #fff;
+  color: var(--primary-cod);
+}
+
+/* Patterns Styles */
+.pattern-line__img {
+  width: 71px;
+  height: 7px;
+}
+/* Family / Special / Social  */
+.main-container {
+  position: relative;
+  margin-bottom: 600px;
+}
+.pattern-bg {
+  position: relative;
+  left: -350px;
+}
+.main-container__content {
+  margin: 160px 165px 0px 165px;
+  position: absolute;
+  top: 0;
+  display: flex;
+  column-gap: 100px;
+  align-items: center;
+  z-index: 50;
+}
+
+.container-pattern__lines {
+  position: absolute;
+  z-index: 80;
+  top: 122px;
+  left: 120px;
+}
+
+.mc-content__right {
+  display: flex;
+  flex-direction: column;
+}
+.mc-content__right h2 {
+  order: 1;
+}
+.mc-content__right p {
+  margin-bottom: 60px;
+  order: 2;
+}
+.btn-book {
+  margin-bottom: 79px;
+}
+.btn {
+  order: 3;
+}
+.next-page {
+  text-transform: uppercase;
+  color: var(--primary-cod);
+  margin-bottom: 12px;
+  order: 4;
+}
+
+@media screen and (max-width: 1024px) {
+}
+@media screen and (max-width: 768px) {
+  .main-container {
+    height: 500px;
+  }
+  .main-container__content {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 425px) {
+  .main-container {
+    height: 100px;
+  }
+  .main-container__content {
+    margin: 50px 5% 0px 5%;
+    text-align: center;
+  }
+  .mc-content__right {
+    align-items: center;
+  }
+  .gathering-img {
+    padding-bottom: 30px;
+  }
+  .mc-content__right h2 {
+    order: 2;
+  }
+  .mc-content__right p {
+    order: 3;
+  }
+  .btn {
+    order: 4;
+  }
+  .next-page {
+    order: 1;
+    margin-top: 20px;
+  }
+  .container-pattern__lines,
+  .pattern-bg {
+    display: none;
+  }
+}
+/* :root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400; 
+
+  color-scheme: light dark; 
+  color: rgba(255, 255, 255, 0.87); 
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}   */
