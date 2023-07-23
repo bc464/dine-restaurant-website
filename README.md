@@ -47,7 +47,8 @@ Users should be able to:
 ### Screenshot
 
 
-![![image](https://github.com/bc464/dine-restaurant-website/assets/82536545/031e87bd-f23e-4a60-aef0-871515e7c1a6)
+![!![image](https://github.com/bc464/dine-restaurant-website/assets/82536545/d2ff8c95-766e-4af6-8be0-95387c6a6def)
+
 ](./screenshot.jpg)
 
 
